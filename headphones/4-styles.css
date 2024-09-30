@@ -1,0 +1,285 @@
+/* Reset CSS */
+#contact-us {
+    padding: 50px 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: #007bff; /* Change to your desired focus color */
+}
+
+button {
+    background-color: #007bff; /* Primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+/* Optional: Add some animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+#contact-us {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+#our-results {
+    padding: 50px 20px;
+    background-color: #e9ecef; /* Slightly different background */
+    text-align: center;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result {
+    flex: 1 1 300px; /* Ensure responsive layout */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.result h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.result {
+    flex: 1 1 300px; /* Ensure responsive layout */
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.result h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.result p {
+    color: #666;
+}
+
+/* Add the pentagon styles below */
+.pentagon {
+    width: 100px; /* Adjust size as needed */
+    height: 100px;
+    background-color: #007bff; /* Change to your desired color */
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+    margin: 0 auto 10px; /* Center the pentagon and add space below */
+}
+
+
+
+.what-we-do {
+    background-color: #f9f9f9; /* Light background color */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.what-we-do h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service {
+    flex: 1;
+    min-width: 200px; /* Adjust to your needs */
+    margin: 20px;
+    text-align: center;
+}
+
+.service i {
+    font-size: 3rem; /* Adjust size of icons */
+    color: var(--main-color);
+    margin-bottom: 15px;
+}
+
+.service h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+}
+
+.service p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.hero {
+    background-image: url('headphones/images/images.jpg'); /* Update the file name accordingly */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --main-color: #FF6565;
+    --font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* Body */
+body {
+    font-family: var(--font-family);
+}
+
+/* Header Styles */
+.hero {
+    background-image: url('assets/images/hero-bg.jpg'); /* Update with your image */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    background-color: var(--main-color);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: opacity 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+/* Responsive Styles */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+}
+footer {
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 1200px; /* Limit width */
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline; /* Display links in a single line */
+    margin: 0 15px;
+}
+
+.footer-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #007bff; /* Change to your desired hover color */
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .footer-links li {
+        display: block; /* Stack links on small screens */
+        margin: 10px 0;
+    }
+}
